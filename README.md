@@ -20,8 +20,6 @@ App will run at:
 http://localhost:5173
 ```
 
----
-
 ## 🌍 Deploy to GitHub Pages (Vite + React)
 
 ### 1️⃣ Install `gh-pages`
@@ -99,6 +97,14 @@ This will:
 - Create `gh-pages` branch
 - Deploy to GitHub Pages
 
+### 5️⃣ GitHub Page Setting
+
+- Go to `Repository → Settings → Pages`
+
+- Then change the branch to `gh-pages` then click on `Save`
+
+![alt text](image.png)
+
 ### 🌐 Live URL
 
 After deployment:
@@ -107,9 +113,7 @@ After deployment:
 https://YOUR_USERNAME.github.io/REPO_NAME/
 ```
 
----
-
-# ⚠️ Important Notes
+## ⚠️ Important Notes
 
 ✔ Always run `npm run deploy` after making changes
 
@@ -117,10 +121,6 @@ https://YOUR_USERNAME.github.io/REPO_NAME/
 
 ✔ Always rebuild after changing `vite.config.js`
 
----
-
-# 🎉 Done!
+## 🎉 Done!
 
 Your Vite + React app is now successfully deployed on GitHub Pages 🚀
-
----
