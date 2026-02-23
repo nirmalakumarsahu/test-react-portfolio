@@ -104,7 +104,7 @@ export default function HeroSection() {
       </svg>
 
       <img
-        src="/test-react-portfolio/assets/user-image.png"
+        src="./assets/user-image.png"
         alt="Profile Image"
         className="size-36 rounded-full"
         width={144}
